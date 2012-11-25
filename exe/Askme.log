@@ -1,0 +1,2072 @@
+ 
+26.01.2010 0:25:48	****************Формирование нового отчета**************************
+26.01.2010 0:25:48	Начало формирования кода SQL-запроса
+26.01.2010 0:25:48	Завершение формирования кода SQL-запроса
+26.01.2010 0:25:48	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 0:25:48	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 0:25:49	Количество получасовок в итоговом запросе не кратно 192
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок в итоговом запросе не кратно 192
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 200
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 128
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 0:25:49	Завершение выполения запроса к базе
+26.01.2010 0:25:49	Возникла ошибка при обработке запроса
+26.01.2010 0:25:49	**********При формировании отчета возникли ошибки*******************
+ 
+26.01.2010 0:25:49	****************Формирование нового отчета**************************
+26.01.2010 0:25:49	Начало формирования кода SQL-запроса
+26.01.2010 0:25:49	Завершение формирования кода SQL-запроса
+26.01.2010 0:25:49	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 0:25:49	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 0:25:50	Количество получасовок в итоговом запросе не кратно 192
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок в итоговом запросе не кратно 192
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 200
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 128
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 0:25:50	Завершение выполения запроса к базе
+26.01.2010 0:25:50	Возникла ошибка при обработке запроса
+26.01.2010 0:25:50	**********При формировании отчета возникли ошибки*******************
+ 
+26.01.2010 0:25:50	****************Формирование нового отчета**************************
+26.01.2010 0:25:50	Начало формирования кода SQL-запроса
+26.01.2010 0:25:50	Завершение формирования кода SQL-запроса
+26.01.2010 0:25:50	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 0:25:50	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 0:25:51	Количество получасовок в итоговом запросе не кратно 192
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок в итоговом запросе не кратно 192
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 200
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 128
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 0:25:51	Завершение выполения запроса к базе
+26.01.2010 0:25:51	Возникла ошибка при обработке запроса
+26.01.2010 0:25:51	**********При формировании отчета возникли ошибки*******************
+ 
+26.01.2010 0:31:27	****************Формирование нового отчета**************************
+26.01.2010 0:31:27	Начало формирования кода SQL-запроса
+26.01.2010 0:31:27	Завершение формирования кода SQL-запроса
+26.01.2010 0:31:27	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 0:31:27	Начало выполения запроса к базе
+26.01.2010 0:51:54	Приложение запущено
+ 
+26.01.2010 0:52:02	****************Формирование нового отчета**************************
+26.01.2010 0:52:02	Начало формирования кода SQL-запроса
+26.01.2010 0:58:56	Приложение запущено
+ 
+26.01.2010 0:59:01	****************Формирование нового отчета**************************
+26.01.2010 0:59:01	Начало формирования кода SQL-запроса
+26.01.2010 0:59:10	Завершение формирования кода SQL-запроса
+26.01.2010 0:59:10	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 0:59:10	Начало выполения запроса к базе
+26.01.2010 1:37:37	Приложение запущено
+ 
+26.01.2010 1:37:42	****************Формирование нового отчета**************************
+26.01.2010 1:37:42	Начало формирования кода SQL-запроса
+26.01.2010 1:37:42	Завершение формирования кода SQL-запроса
+26.01.2010 1:37:42	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (System.Collections.Generic.List`1[System.String]) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 1:37:42	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 1:37:43	ORA-00911: invalid character
+***Exception Level: 1
+***ExceptionType: OracleException
+***HelpLine: 
+***Message: ORA-00911: invalid character
+***Source: Devart.Data.Oracle
+***StackTrace:    в Devart.Data.Oracle.ap.b(Int32 A_0)
+   в Devart.Data.Oracle.b.a(Int32 A_0, i A_1)
+   в Devart.Data.Oracle.OracleCommand.InternalExecute(CommandBehavior behavior, IDisposable disposable, Int32 startRecord, Int32 maxRecords)
+   в Devart.Common.DbCommandBase.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в Devart.Data.Oracle.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Askme.OracleQuery.Query() в D:\datadi\programming\src\Askme\OracleQuery.cs:строка 29
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 91
+***TargetSite: Void b(Int32)
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 1:37:43	Завершение выполения запроса к базе
+26.01.2010 1:37:43	Возникла ошибка при обработке запроса
+26.01.2010 1:37:43	**********При формировании отчета возникли ошибки*******************
+ 
+26.01.2010 1:37:56	****************Формирование нового отчета**************************
+26.01.2010 1:37:56	Начало формирования кода SQL-запроса
+26.01.2010 1:37:56	Завершение формирования кода SQL-запроса
+26.01.2010 1:37:56	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (System.Collections.Generic.List`1[System.String]) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 1:37:56	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 1:37:56	ORA-00911: invalid character
+***Exception Level: 1
+***ExceptionType: OracleException
+***HelpLine: 
+***Message: ORA-00911: invalid character
+***Source: Devart.Data.Oracle
+***StackTrace:    в Devart.Data.Oracle.ap.b(Int32 A_0)
+   в Devart.Data.Oracle.b.a(Int32 A_0, i A_1)
+   в Devart.Data.Oracle.OracleCommand.InternalExecute(CommandBehavior behavior, IDisposable disposable, Int32 startRecord, Int32 maxRecords)
+   в Devart.Common.DbCommandBase.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в Devart.Data.Oracle.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Askme.OracleQuery.Query() в D:\datadi\programming\src\Askme\OracleQuery.cs:строка 29
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 91
+***TargetSite: Void b(Int32)
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 1:37:56	Завершение выполения запроса к базе
+26.01.2010 1:37:56	Возникла ошибка при обработке запроса
+26.01.2010 1:37:56	**********При формировании отчета возникли ошибки*******************
+26.01.2010 1:38:20	Приложение запущено
+ 
+26.01.2010 1:38:28	****************Формирование нового отчета**************************
+26.01.2010 1:38:28	Начало формирования кода SQL-запроса
+26.01.2010 1:38:28	Завершение формирования кода SQL-запроса
+26.01.2010 1:38:28	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (System.Collections.Generic.List`1[System.String]) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 1:38:28	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 1:38:28	ORA-00911: invalid character
+***Exception Level: 1
+***ExceptionType: OracleException
+***HelpLine: 
+***Message: ORA-00911: invalid character
+***Source: Devart.Data.Oracle
+***StackTrace:    в Devart.Data.Oracle.ap.b(Int32 A_0)
+   в Devart.Data.Oracle.b.a(Int32 A_0, i A_1)
+   в Devart.Data.Oracle.OracleCommand.InternalExecute(CommandBehavior behavior, IDisposable disposable, Int32 startRecord, Int32 maxRecords)
+   в Devart.Common.DbCommandBase.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в Devart.Data.Oracle.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Askme.OracleQuery.Query() в D:\datadi\programming\src\Askme\OracleQuery.cs:строка 29
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 91
+***TargetSite: Void b(Int32)
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 1:38:28	Завершение выполения запроса к базе
+26.01.2010 1:38:28	Возникла ошибка при обработке запроса
+26.01.2010 1:38:28	**********При формировании отчета возникли ошибки*******************
+ 
+26.01.2010 1:38:41	****************Формирование нового отчета**************************
+26.01.2010 1:38:41	Начало формирования кода SQL-запроса
+26.01.2010 1:38:41	Завершение формирования кода SQL-запроса
+26.01.2010 1:38:41	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (System.Collections.Generic.List`1[System.String]) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 1:38:44	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 1:38:54	ORA-00911: invalid character
+***Exception Level: 1
+***ExceptionType: OracleException
+***HelpLine: 
+***Message: ORA-00911: invalid character
+***Source: Devart.Data.Oracle
+***StackTrace:    в Devart.Data.Oracle.ap.b(Int32 A_0)
+   в Devart.Data.Oracle.b.a(Int32 A_0, i A_1)
+   в Devart.Data.Oracle.OracleCommand.InternalExecute(CommandBehavior behavior, IDisposable disposable, Int32 startRecord, Int32 maxRecords)
+   в Devart.Common.DbCommandBase.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в Devart.Data.Oracle.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Askme.OracleQuery.Query() в D:\datadi\programming\src\Askme\OracleQuery.cs:строка 29
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 91
+***TargetSite: Void b(Int32)
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 1:38:54	Завершение выполения запроса к базе
+26.01.2010 1:38:54	Возникла ошибка при обработке запроса
+26.01.2010 1:38:54	**********При формировании отчета возникли ошибки*******************
+ 
+26.01.2010 1:38:56	****************Формирование нового отчета**************************
+26.01.2010 1:38:56	Начало формирования кода SQL-запроса
+26.01.2010 1:38:56	Завершение формирования кода SQL-запроса
+26.01.2010 1:38:56	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (System.Collections.Generic.List`1[System.String]) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 1:39:00	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 1:39:15	ORA-00911: invalid character
+***Exception Level: 1
+***ExceptionType: OracleException
+***HelpLine: 
+***Message: ORA-00911: invalid character
+***Source: Devart.Data.Oracle
+***StackTrace:    в Devart.Data.Oracle.ap.b(Int32 A_0)
+   в Devart.Data.Oracle.b.a(Int32 A_0, i A_1)
+   в Devart.Data.Oracle.OracleCommand.InternalExecute(CommandBehavior behavior, IDisposable disposable, Int32 startRecord, Int32 maxRecords)
+   в Devart.Common.DbCommandBase.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в Devart.Data.Oracle.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   в System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   в Askme.OracleQuery.Query() в D:\datadi\programming\src\Askme\OracleQuery.cs:строка 29
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 91
+***TargetSite: Void b(Int32)
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 1:39:15	Завершение выполения запроса к базе
+26.01.2010 1:39:15	Возникла ошибка при обработке запроса
+26.01.2010 1:39:15	**********При формировании отчета возникли ошибки*******************
+26.01.2010 2:02:41	Приложение запущено
+ 
+26.01.2010 2:02:46	****************Формирование нового отчета**************************
+26.01.2010 2:02:46	Начало формирования кода SQL-запроса
+26.01.2010 2:02:46	Завершение формирования кода SQL-запроса
+26.01.2010 2:02:46	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 2:02:46	Начало выполения запроса к базе
+26.01.2010 2:08:03	Приложение запущено
+26.01.2010 2:09:44	Приложение запущено
+ 
+26.01.2010 2:09:48	****************Формирование нового отчета**************************
+26.01.2010 2:09:48	Начало формирования кода SQL-запроса
+26.01.2010 2:09:48	Завершение формирования кода SQL-запроса
+26.01.2010 2:09:48	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 2:09:48	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 2:14:30	Количество получасовок для объекта 980001 не кратно 192
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок для объекта 980001 не кратно 192
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 200
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 130
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 2:14:30	Завершение выполения запроса к базе
+26.01.2010 2:14:30	Возникла ошибка при обработке запроса
+26.01.2010 2:14:30	**********При формировании отчета возникли ошибки*******************
+ 
+26.01.2010 2:14:45	****************Формирование нового отчета**************************
+26.01.2010 2:14:45	Начало формирования кода SQL-запроса
+26.01.2010 2:14:45	Завершение формирования кода SQL-запроса
+26.01.2010 2:14:45	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 2:14:45	Начало выполения запроса к базе
+26.01.2010 2:14:56	Приложение запущено
+ 
+26.01.2010 2:15:00	****************Формирование нового отчета**************************
+26.01.2010 2:15:00	Начало формирования кода SQL-запроса
+26.01.2010 2:15:00	Завершение формирования кода SQL-запроса
+26.01.2010 2:15:00	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 2:15:00	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 2:16:49	Количество получасовок для объекта 980001 не кратно 192
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок для объекта 980001 не кратно 192
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 200
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 130
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 2:16:49	Завершение выполения запроса к базе
+26.01.2010 2:16:49	Возникла ошибка при обработке запроса
+26.01.2010 2:16:49	**********При формировании отчета возникли ошибки*******************
+ 
+26.01.2010 2:16:56	****************Формирование нового отчета**************************
+26.01.2010 2:16:56	Начало формирования кода SQL-запроса
+26.01.2010 2:16:56	Завершение формирования кода SQL-запроса
+26.01.2010 2:16:56	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 2:16:56	Начало выполения запроса к базе
+26.01.2010 2:16:56	Завершение выполения запроса к базе
+26.01.2010 2:16:56	Начало преобразования полученных данных в итоговый xml
+26.01.2010 2:16:56	Завершение преобразования полученных данных в итоговый xml
+26.01.2010 2:16:56	Начало отправки сообщения на e-mail
+26.01.2010 2:16:57	Е-mail успешно отправлен
+26.01.2010 2:16:57	Завершение отправки сообщения на e-mail
+26.01.2010 2:16:57	****************Отчет успешно сформирован***************************
+ 
+26.01.2010 2:17:16	****************Формирование нового отчета**************************
+26.01.2010 2:17:16	Начало формирования кода SQL-запроса
+26.01.2010 2:17:16	Завершение формирования кода SQL-запроса
+26.01.2010 2:17:16	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 2:17:16	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 2:17:16	Количество получасовок для объекта 980001 не кратно 192
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок для объекта 980001 не кратно 192
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 200
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 130
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 2:17:16	Завершение выполения запроса к базе
+26.01.2010 2:17:16	Возникла ошибка при обработке запроса
+26.01.2010 2:17:16	**********При формировании отчета возникли ошибки*******************
+ 
+26.01.2010 2:17:56	****************Формирование нового отчета**************************
+26.01.2010 2:17:56	Начало формирования кода SQL-запроса
+26.01.2010 2:17:56	Завершение формирования кода SQL-запроса
+26.01.2010 2:17:56	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 2:17:56	Начало выполения запроса к базе
+26.01.2010 2:17:56	Завершение выполения запроса к базе
+26.01.2010 2:17:56	Начало преобразования полученных данных в итоговый xml
+26.01.2010 2:17:56	Завершение преобразования полученных данных в итоговый xml
+26.01.2010 2:17:56	Начало отправки сообщения на e-mail
+26.01.2010 2:17:56	Процесс не может получить доступ к файлу "D:\datadi\programming\src\Askme\exe\resultFile\80020_7706284124_20100125_1100_PRUSSES1.zip", так как этот файл используется другим процессом.
+26.01.2010 2:17:57	Е-mail успешно отправлен
+26.01.2010 2:17:57	Завершение отправки сообщения на e-mail
+26.01.2010 2:17:57	****************Отчет успешно сформирован***************************
+ 
+26.01.2010 2:18:14	****************Формирование нового отчета**************************
+26.01.2010 2:18:14	Начало формирования кода SQL-запроса
+26.01.2010 2:18:14	Завершение формирования кода SQL-запроса
+26.01.2010 2:18:14	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 2:18:14	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 2:18:14	Количество получасовок для объекта 980001 не кратно 192
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок для объекта 980001 не кратно 192
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 200
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 130
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 2:18:14	Завершение выполения запроса к базе
+26.01.2010 2:18:14	Возникла ошибка при обработке запроса
+26.01.2010 2:18:14	**********При формировании отчета возникли ошибки*******************
+ 
+26.01.2010 2:18:56	****************Формирование нового отчета**************************
+26.01.2010 2:18:56	Начало формирования кода SQL-запроса
+26.01.2010 2:18:56	Завершение формирования кода SQL-запроса
+26.01.2010 2:18:56	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY
+26.01.2010 2:18:56	Начало выполения запроса к базе
+26.01.2010 2:18:56	Завершение выполения запроса к базе
+26.01.2010 2:18:56	Начало преобразования полученных данных в итоговый xml
+26.01.2010 2:18:56	Завершение преобразования полученных данных в итоговый xml
+26.01.2010 2:18:56	Начало отправки сообщения на e-mail
+26.01.2010 2:18:57	Е-mail успешно отправлен
+26.01.2010 2:18:57	Завершение отправки сообщения на e-mail
+26.01.2010 2:18:57	****************Отчет успешно сформирован***************************
+ 
+26.01.2010 2:19:39	****************Формирование нового отчета**************************
+26.01.2010 2:19:39	Начало формирования кода SQL-запроса
+26.01.2010 2:19:39	Завершение формирования кода SQL-запроса
+26.01.2010 2:19:39	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 2:19:39	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 2:19:39	Количество получасовок для объекта 980001 не кратно 192
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок для объекта 980001 не кратно 192
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 200
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 130
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 2:19:39	Завершение выполения запроса к базе
+26.01.2010 2:19:39	Возникла ошибка при обработке запроса
+26.01.2010 2:19:39	**********При формировании отчета возникли ошибки*******************
+ 
+26.01.2010 2:19:56	****************Формирование нового отчета**************************
+26.01.2010 2:19:56	Начало формирования кода SQL-запроса
+26.01.2010 2:19:56	Завершение формирования кода SQL-запроса
+26.01.2010 2:19:56	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 2:19:56	Начало выполения запроса к базе
+26.01.2010 2:19:56	Завершение выполения запроса к базе
+26.01.2010 2:19:56	Начало преобразования полученных данных в итоговый xml
+26.01.2010 2:19:56	Завершение преобразования полученных данных в итоговый xml
+26.01.2010 2:19:56	Начало отправки сообщения на e-mail
+26.01.2010 2:19:57	Е-mail успешно отправлен
+26.01.2010 2:19:57	Завершение отправки сообщения на e-mail
+26.01.2010 2:19:57	****************Отчет успешно сформирован***************************
+ 
+26.01.2010 2:21:31	****************Формирование нового отчета**************************
+26.01.2010 2:21:31	Начало формирования кода SQL-запроса
+26.01.2010 2:21:31	Завершение формирования кода SQL-запроса
+26.01.2010 2:21:31	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 2:21:31	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 2:21:32	Количество получасовок для объекта 980001 не кратно 192
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок для объекта 980001 не кратно 192
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 200
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 130
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 2:21:32	Завершение выполения запроса к базе
+26.01.2010 2:21:32	Возникла ошибка при обработке запроса
+26.01.2010 2:21:32	**********При формировании отчета возникли ошибки*******************
+ 
+26.01.2010 2:21:37	****************Формирование нового отчета**************************
+26.01.2010 2:21:37	Начало формирования кода SQL-запроса
+26.01.2010 2:21:37	Завершение формирования кода SQL-запроса
+26.01.2010 2:21:37	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 2:21:37	Начало выполения запроса к базе
+26.01.2010 2:37:51	Приложение запущено
+ 
+26.01.2010 2:38:51	****************Формирование нового отчета**************************
+26.01.2010 2:38:51	Начало формирования кода SQL-запроса
+26.01.2010 2:38:56	Завершение формирования кода SQL-запроса
+26.01.2010 2:38:56	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 2:38:56	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 2:39:01	ORA-12154: TNS:невозможно разрешить имя службы
+***Exception Level: 1
+***ExceptionType: OracleException
+***HelpLine: 
+***Message: ORA-12154: TNS:невозможно разрешить имя службы
+***Source: Devart.Data.Oracle
+***StackTrace:    в Devart.Data.Oracle.ap.b(Int32 A_0)
+   в Devart.Data.Oracle.a.a(ak A_0, g A_1)
+   в Devart.Data.Oracle.al..ctor(ak A_0, al A_1)
+   в Devart.Data.Oracle.d.a(DbConnectionOptions A_0, Object A_1, DbConnectionBase A_2)
+   в Devart.Common.DbConnectionFactory.a(DbConnectionPool A_0, DbConnectionOptions A_1, DbConnectionBase A_2)
+   в Devart.Common.DbConnectionPoolGroup.a(DbConnectionPool A_0, DbConnectionBase A_1)
+   в Devart.Common.DbConnectionPool.a(DbConnectionBase A_0)
+   в Devart.Common.DbConnectionPool.GetObject(DbConnectionBase owningConnection)
+   в Devart.Common.DbConnectionFactory.a(DbConnectionBase A_0)
+   в Devart.Common.DbConnectionClosed.Open(DbConnectionBase outerConnection)
+   в Devart.Common.DbConnectionBase.Open()
+   в Devart.Data.Oracle.OracleConnection.Open()
+   в Askme.OracleQuery.Query() в D:\datadi\programming\src\Askme\OracleQuery.cs:строка 26
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 92
+***TargetSite: Void b(Int32)
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 2:39:03	Завершение выполения запроса к базе
+26.01.2010 2:39:03	Возникла ошибка при обработке запроса
+26.01.2010 2:39:03	**********При формировании отчета возникли ошибки*******************
+ 
+26.01.2010 2:39:51	****************Формирование нового отчета**************************
+26.01.2010 2:39:51	Начало формирования кода SQL-запроса
+26.01.2010 2:39:55	Завершение формирования кода SQL-запроса
+26.01.2010 2:39:55	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 2:39:55	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 2:40:00	ORA-12154: TNS:невозможно разрешить имя службы
+***Exception Level: 1
+***ExceptionType: OracleException
+***HelpLine: 
+***Message: ORA-12154: TNS:невозможно разрешить имя службы
+***Source: Devart.Data.Oracle
+***StackTrace:    в Devart.Data.Oracle.ap.b(Int32 A_0)
+   в Devart.Data.Oracle.a.a(ak A_0, g A_1)
+   в Devart.Data.Oracle.al..ctor(ak A_0, al A_1)
+   в Devart.Data.Oracle.d.a(DbConnectionOptions A_0, Object A_1, DbConnectionBase A_2)
+   в Devart.Common.DbConnectionFactory.a(DbConnectionPool A_0, DbConnectionOptions A_1, DbConnectionBase A_2)
+   в Devart.Common.DbConnectionPoolGroup.a(DbConnectionPool A_0, DbConnectionBase A_1)
+   в Devart.Common.DbConnectionPool.a(DbConnectionBase A_0)
+   в Devart.Common.DbConnectionPool.GetObject(DbConnectionBase owningConnection)
+   в Devart.Common.DbConnectionFactory.a(DbConnectionBase A_0)
+   в Devart.Common.DbConnectionClosed.Open(DbConnectionBase outerConnection)
+   в Devart.Common.DbConnectionBase.Open()
+   в Devart.Data.Oracle.OracleConnection.Open()
+   в Askme.OracleQuery.Query() в D:\datadi\programming\src\Askme\OracleQuery.cs:строка 26
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 92
+***TargetSite: Void b(Int32)
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 2:40:00	Завершение выполения запроса к базе
+26.01.2010 2:40:00	Возникла ошибка при обработке запроса
+26.01.2010 2:40:00	**********При формировании отчета возникли ошибки*******************
+26.01.2010 2:40:36	Приложение остановлено
+26.01.2010 2:40:38	Приложение запущено
+26.01.2010 2:45:50	Приложение запущено
+26.01.2010 2:46:59	Приложение запущено
+26.01.2010 2:47:20	Приложение запущено
+26.01.2010 2:48:15	Приложение запущено
+26.01.2010 2:50:48	Приложение запущено
+26.01.2010 2:51:17	Приложение запущено
+26.01.2010 2:51:46	Приложение запущено
+ 
+26.01.2010 2:52:46	****************Формирование нового отчета**************************
+26.01.2010 2:52:46	Начало формирования кода SQL-запроса
+26.01.2010 2:52:46	Завершение формирования кода SQL-запроса
+26.01.2010 2:52:46	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 2:52:46	Начало выполения запроса к базе
+26.01.2010 2:54:31	Приложение запущено
+ 
+26.01.2010 2:55:31	****************Формирование нового отчета**************************
+26.01.2010 2:55:31	Начало формирования кода SQL-запроса
+26.01.2010 2:55:31	Завершение формирования кода SQL-запроса
+26.01.2010 2:55:31	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 2:55:31	Начало выполения запроса к базе
+26.01.2010 2:55:32	Завершение выполения запроса к базе
+26.01.2010 2:55:32	Начало преобразования полученных данных в итоговый xml
+26.01.2010 2:55:32	Завершение преобразования полученных данных в итоговый xml
+26.01.2010 2:55:32	Начало отправки сообщения на e-mail
+26.01.2010 2:55:33	Е-mail успешно отправлен
+26.01.2010 2:55:33	Завершение отправки сообщения на e-mail
+26.01.2010 2:55:33	****************Отчет успешно сформирован***************************
+ 
+26.01.2010 2:57:17	****************Формирование нового отчета**************************
+26.01.2010 2:57:17	Начало формирования кода SQL-запроса
+26.01.2010 2:57:17	Завершение формирования кода SQL-запроса
+26.01.2010 2:57:17	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 2:57:17	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 2:57:17	Количество получасовок для объекта 980001 не кратно 192
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок для объекта 980001 не кратно 192
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 200
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 130
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 2:57:17	Завершение выполения запроса к базе
+26.01.2010 2:57:17	Возникла ошибка при обработке запроса
+26.01.2010 2:57:17	**********При формировании отчета возникли ошибки*******************
+ 
+26.01.2010 2:57:31	****************Формирование нового отчета**************************
+26.01.2010 2:57:31	Начало формирования кода SQL-запроса
+26.01.2010 2:57:31	Завершение формирования кода SQL-запроса
+26.01.2010 2:57:31	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 2:57:31	Начало выполения запроса к базе
+26.01.2010 2:57:31	Завершение выполения запроса к базе
+26.01.2010 2:57:31	Начало преобразования полученных данных в итоговый xml
+26.01.2010 2:57:31	Завершение преобразования полученных данных в итоговый xml
+26.01.2010 2:57:31	Начало отправки сообщения на e-mail
+26.01.2010 2:57:33	Е-mail успешно отправлен
+26.01.2010 2:57:33	Завершение отправки сообщения на e-mail
+26.01.2010 2:57:33	****************Отчет успешно сформирован***************************
+ 
+26.01.2010 2:58:48	****************Формирование нового отчета**************************
+26.01.2010 2:58:48	Начало формирования кода SQL-запроса
+26.01.2010 2:58:49	Завершение формирования кода SQL-запроса
+26.01.2010 2:58:49	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 2:58:49	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 2:58:49	Количество получасовок для объекта 980001 не кратно 192
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок для объекта 980001 не кратно 192
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 200
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 130
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 2:58:49	Завершение выполения запроса к базе
+26.01.2010 2:58:49	Возникла ошибка при обработке запроса
+26.01.2010 2:58:49	**********При формировании отчета возникли ошибки*******************
+ 
+26.01.2010 2:59:31	****************Формирование нового отчета**************************
+26.01.2010 2:59:31	Начало формирования кода SQL-запроса
+26.01.2010 2:59:31	Завершение формирования кода SQL-запроса
+26.01.2010 2:59:31	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 2:59:31	Начало выполения запроса к базе
+26.01.2010 2:59:31	Завершение выполения запроса к базе
+26.01.2010 2:59:31	Начало преобразования полученных данных в итоговый xml
+26.01.2010 2:59:31	Завершение преобразования полученных данных в итоговый xml
+26.01.2010 2:59:31	Начало отправки сообщения на e-mail
+26.01.2010 2:59:33	Е-mail успешно отправлен
+26.01.2010 2:59:33	Завершение отправки сообщения на e-mail
+26.01.2010 2:59:33	****************Отчет успешно сформирован***************************
+26.01.2010 3:07:56	Приложение запущено
+26.01.2010 3:08:36	Приложение запущено
+26.01.2010 12:12:03	Приложение запущено
+ 
+26.01.2010 12:12:10	****************Формирование нового отчета**************************
+26.01.2010 12:12:10	Начало формирования кода SQL-запроса
+26.01.2010 12:12:10	Завершение формирования кода SQL-запроса
+26.01.2010 12:12:10	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 12:12:10	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 12:12:11	Количество получасовок для объекта 980001 не кратно 192
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок для объекта 980001 не кратно 192
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 200
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 130
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 12:12:11	Завершение выполения запроса к базе
+26.01.2010 12:12:11	Возникла ошибка при обработке запроса
+26.01.2010 12:12:11	**********При формировании отчета возникли ошибки*******************
+26.01.2010 12:26:51	Приложение запущено
+ 
+26.01.2010 12:26:57	****************Формирование нового отчета**************************
+26.01.2010 12:26:57	Начало формирования кода SQL-запроса
+26.01.2010 12:26:57	Завершение формирования кода SQL-запроса
+26.01.2010 12:26:57	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 12:26:57	Начало выполения запроса к базе
+26.01.2010 12:28:49	Приложение запущено
+ 
+26.01.2010 12:28:55	****************Формирование нового отчета**************************
+26.01.2010 12:28:55	Начало формирования кода SQL-запроса
+26.01.2010 12:28:55	Завершение формирования кода SQL-запроса
+26.01.2010 12:28:55	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 12:28:55	Начало выполения запроса к базе
+26.01.2010 12:36:44	Приложение запущено
+ 
+26.01.2010 12:37:00	****************Формирование нового отчета**************************
+26.01.2010 12:37:00	Начало формирования кода SQL-запроса
+26.01.2010 12:37:01	Завершение формирования кода SQL-запроса
+26.01.2010 12:37:01	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 12:37:01	Начало выполения запроса к базе
+26.01.2010 12:46:49	Приложение запущено
+ 
+26.01.2010 12:46:55	****************Формирование нового отчета**************************
+26.01.2010 12:46:55	Начало формирования кода SQL-запроса
+26.01.2010 12:46:55	Завершение формирования кода SQL-запроса
+26.01.2010 12:46:55	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 12:46:55	Начало выполения запроса к базе
+26.01.2010 12:47:24	Приложение запущено
+ 
+26.01.2010 12:47:30	****************Формирование нового отчета**************************
+26.01.2010 12:47:30	Начало формирования кода SQL-запроса
+26.01.2010 12:47:30	Завершение формирования кода SQL-запроса
+26.01.2010 12:47:30	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 12:47:30	Начало выполения запроса к базе
+26.01.2010 13:09:56	Приложение запущено
+ 
+26.01.2010 13:10:03	****************Формирование нового отчета**************************
+26.01.2010 13:10:03	Начало формирования кода SQL-запроса
+26.01.2010 13:10:03	Завершение формирования кода SQL-запроса
+26.01.2010 13:10:03	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 13:10:03	Начало выполения запроса к базе
+26.01.2010 13:10:05	Завершение выполения запроса к базе
+26.01.2010 13:10:05	Начало преобразования полученных данных в итоговый xml
+26.01.2010 13:10:07	Завершение преобразования полученных данных в итоговый xml
+26.01.2010 13:10:07	****************Отчет успешно сформирован***************************
+ 
+26.01.2010 13:14:19	****************Формирование нового отчета**************************
+26.01.2010 13:14:19	Начало формирования кода SQL-запроса
+26.01.2010 13:14:19	Завершение формирования кода SQL-запроса
+26.01.2010 13:14:19	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 13:14:19	Начало выполения запроса к базе
+***CRITICAL***26.01.2010 13:14:34	Количество получасовок для объекта 984010 не кратно 192
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок для объекта 984010 не кратно 192
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 200
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 130
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+26.01.2010 13:14:34	Завершение выполения запроса к базе
+26.01.2010 13:14:34	Возникла ошибка при обработке запроса
+26.01.2010 13:14:34	**********При формировании отчета возникли ошибки*******************
+26.01.2010 13:18:11	Приложение запущено
+26.01.2010 13:19:56	Приложение остановлено
+26.01.2010 13:20:26	Приложение запущено
+ 
+26.01.2010 13:20:34	****************Формирование нового отчета**************************
+26.01.2010 13:20:34	Начало формирования кода SQL-запроса
+26.01.2010 13:20:34	Завершение формирования кода SQL-запроса
+26.01.2010 13:20:34	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 13:20:34	Начало выполения запроса к базе
+26.01.2010 13:20:36	Завершение выполения запроса к базе
+26.01.2010 13:20:36	Начало преобразования полученных данных в итоговый xml
+26.01.2010 13:20:37	Завершение преобразования полученных данных в итоговый xml
+26.01.2010 13:20:38	****************Отчет успешно сформирован***************************
+ 
+26.01.2010 13:21:24	****************Формирование нового отчета**************************
+26.01.2010 13:21:24	Начало формирования кода SQL-запроса
+26.01.2010 13:21:24	Завершение формирования кода SQL-запроса
+26.01.2010 13:21:24	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+26.01.2010 13:21:24	Начало выполения запроса к базе
+26.01.2010 13:21:26	Завершение выполения запроса к базе
+26.01.2010 13:21:26	Начало преобразования полученных данных в итоговый xml
+26.01.2010 13:21:27	Завершение преобразования полученных данных в итоговый xml
+26.01.2010 13:21:27	Начало отправки сообщения на e-mail
+26.01.2010 13:21:29	Е-mail успешно отправлен
+26.01.2010 13:21:29	Завершение отправки сообщения на e-mail
+26.01.2010 13:21:29	****************Отчет успешно сформирован***************************
+27.01.2010 5:33:24	Приложение запущено
+ 
+27.01.2010 5:33:38	****************Формирование нового отчета**************************
+27.01.2010 5:33:38	Начало формирования кода SQL-запроса
+27.01.2010 5:33:42	Завершение формирования кода SQL-запроса
+27.01.2010 5:33:42	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+27.01.2010 5:33:42	Начало выполения запроса к базе
+27.01.2010 5:33:50	Завершение выполения запроса к базе
+27.01.2010 5:33:50	Начало преобразования полученных данных в итоговый xml
+27.01.2010 5:33:51	Завершение преобразования полученных данных в итоговый xml
+27.01.2010 5:33:51	****************Отчет успешно сформирован***************************
+27.01.2010 5:40:10	Приложение запущено
+ 
+27.01.2010 5:40:15	****************Формирование нового отчета**************************
+27.01.2010 5:40:15	Начало формирования кода SQL-запроса
+27.01.2010 5:40:15	Завершение формирования кода SQL-запроса
+27.01.2010 5:40:15	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+27.01.2010 5:40:15	Начало выполения запроса к базе
+27.01.2010 5:40:16	---------Начало проверки данных на количество получасовок (кратность 48)
+27.01.2010 5:40:17	---------Окончание проверки данных на количество получасовок (кратность 48)
+27.01.2010 5:40:17	Завершение выполения запроса к базе
+27.01.2010 5:40:17	Начало преобразования полученных данных в итоговый xml
+27.01.2010 5:40:19	Завершение преобразования полученных данных в итоговый xml
+27.01.2010 5:40:19	****************Отчет успешно сформирован***************************
+27.01.2010 5:40:48	Приложение остановлено
+27.01.2010 5:40:58	Приложение запущено
+ 
+27.01.2010 5:41:02	****************Формирование нового отчета**************************
+27.01.2010 5:41:02	Начало формирования кода SQL-запроса
+27.01.2010 5:41:03	Завершение формирования кода SQL-запроса
+27.01.2010 5:41:03	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+27.01.2010 5:41:03	Начало выполения запроса к базе
+27.01.2010 5:41:26	---------Начало проверки данных на количество получасовок (кратность 48)
+***CRITICAL***27.01.2010 5:41:30	Количество получасовок для объекта 984010 не кратно 48
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок для объекта 984010 не кратно 48
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 202
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 131
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+27.01.2010 5:41:30	Завершение выполения запроса к базе
+27.01.2010 5:41:30	Возникла ошибка при обработке запроса
+27.01.2010 5:41:30	**********При формировании отчета возникли ошибки*******************
+27.01.2010 5:46:30	Приложение запущено
+27.01.2010 5:46:46	Приложение остановлено
+03.02.2010 21:31:25	Приложение запущено
+03.02.2010 21:35:31	Приложение запущено
+ 
+03.02.2010 21:40:50	****************Формирование нового отчета**************************
+03.02.2010 21:40:50	Начало формирования кода SQL-запроса
+03.02.2010 21:40:51	Завершение формирования кода SQL-запроса
+03.02.2010 21:40:51	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+03.02.2010 21:40:51	Начало выполения запроса к базе
+***CRITICAL***03.02.2010 21:40:51	Could not load file or assembly 'Devart.Data.Oracle, Version=5.35.62.0, Culture=neutral, PublicKeyToken=09af7300eec23701' or one of its dependencies. Не удается найти указанный файл.
+***Exception Level: 1
+***ExceptionType: FileNotFoundException
+***HelpLine: 
+***Message: Could not load file or assembly 'Devart.Data.Oracle, Version=5.35.62.0, Culture=neutral, PublicKeyToken=09af7300eec23701' or one of its dependencies. Не удается найти указанный файл.
+***Source: Askme
+***StackTrace:    at Askme.OracleQuery.Query()
+   at Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) in D:\datadi\programming\src\Askme\Asker.cs:line 92
+***TargetSite: Void Query()
+***Data: System.Collections.ListDictionaryInternal
+03.02.2010 21:40:51	Завершение выполения запроса к базе
+03.02.2010 21:40:51	Возникла ошибка при обработке запроса
+03.02.2010 21:40:51	**********При формировании отчета возникли ошибки*******************
+03.02.2010 21:42:20	Приложение остановлено
+19.02.2010 9:10:59	Приложение запущено
+19.02.2010 9:13:38	Приложение запущено
+19.02.2010 9:14:09	Приложение запущено
+19.02.2010 9:14:28	Приложение остановлено
+19.02.2010 9:14:42	Приложение запущено
+19.02.2010 9:24:01	Приложение запущено
+19.02.2010 9:24:09	Приложение запущено
+19.02.2010 9:25:26	Приложение запущено
+19.02.2010 9:25:31	Приложение остановлено
+19.02.2010 9:25:42	Приложение запущено
+19.02.2010 9:27:11	Приложение запущено
+19.02.2010 9:27:17	Приложение остановлено
+19.02.2010 9:39:53	Приложение запущено
+19.02.2010 9:39:56	Приложение остановлено
+19.02.2010 9:40:29	Приложение запущено
+19.02.2010 9:41:00	Приложение запущено
+19.02.2010 9:41:18	Приложение остановлено
+19.02.2010 9:42:23	Приложение запущено
+19.02.2010 9:43:52	Приложение запущено
+19.02.2010 9:43:55	Приложение остановлено
+19.02.2010 9:43:59	Приложение запущено
+19.02.2010 10:10:27	Приложение остановлено
+19.02.2010 10:11:23	Приложение запущено
+19.02.2010 10:29:05	Приложение остановлено
+19.02.2010 10:41:06	Приложение запущено
+19.02.2010 10:41:47	Приложение запущено
+19.02.2010 10:42:01	Приложение остановлено
+19.02.2010 10:42:06	Приложение запущено
+ 
+19.02.2010 10:42:33	****************Формирование нового отчета**************************
+19.02.2010 10:42:33	Начало формирования кода SQL-запроса
+19.02.2010 10:42:34	Завершение формирования кода SQL-запроса
+19.02.2010 10:42:34	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+19.02.2010 10:42:34	Начало выполения запроса к базе
+***CRITICAL***19.02.2010 10:42:36	ORA-00942: table or view does not exist
+***Exception Level: 1
+***ExceptionType: OracleException
+***HelpLine: 
+***Message: ORA-00942: table or view does not exist
+***Source: Devart.Data.Oracle
+***StackTrace:    at Devart.Data.Oracle.ap.b(Int32 A_0)
+   at Devart.Data.Oracle.b.a(Int32 A_0, i A_1)
+   at Devart.Data.Oracle.OracleCommand.InternalExecute(CommandBehavior behavior, IDisposable disposable, Int32 startRecord, Int32 maxRecords)
+   at Devart.Common.DbCommandBase.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at Devart.Data.Oracle.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Askme.OracleQuery.Query() in D:\datadi\programming\src\Askme\OracleQuery.cs:line 29
+   at Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) in D:\datadi\programming\src\Askme\Asker.cs:line 93
+***TargetSite: Void b(Int32)
+***Data: System.Collections.ListDictionaryInternal
+19.02.2010 10:42:36	Завершение выполения запроса к базе
+19.02.2010 10:42:36	Возникла ошибка при обработке запроса
+19.02.2010 10:42:36	**********При формировании отчета возникли ошибки*******************
+19.02.2010 10:44:52	Приложение остановлено
+23.02.2010 14:50:50	Приложение запущено
+ 
+23.02.2010 14:50:59	****************Формирование нового отчета**************************
+23.02.2010 14:50:59	Начало формирования кода SQL-запроса
+23.02.2010 14:50:59	Завершение формирования кода SQL-запроса
+23.02.2010 14:50:59	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+23.02.2010 14:51:00	Начало выполения запроса к базе
+23.02.2010 14:51:01	---------Начало проверки данных на количество получасовок (кратность 48)
+23.02.2010 14:53:21	---------Окончание проверки данных на количество получасовок (кратность 48)
+23.02.2010 14:53:25	Завершение выполения запроса к базе
+23.02.2010 14:53:25	Начало преобразования полученных данных в итоговый xml
+23.02.2010 14:53:25	Завершение преобразования полученных данных в итоговый xml
+23.02.2010 14:53:25	Начало отправки сообщения на e-mail
+23.02.2010 14:53:26	Е-mail успешно отправлен
+23.02.2010 14:53:26	Завершение отправки сообщения на e-mail
+23.02.2010 14:53:26	****************Отчет успешно сформирован***************************
+23.02.2010 21:27:24	Приложение запущено
+ 
+23.02.2010 21:27:34	****************Формирование нового отчета**************************
+23.02.2010 21:27:36	Начало формирования кода SQL-запроса
+23.02.2010 21:27:37	Завершение формирования кода SQL-запроса
+23.02.2010 21:30:55	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('25-12-2009')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+23.02.2010 21:30:55	Начало выполения запроса к базе
+23.02.2010 21:30:56	---------Начало проверки данных на количество получасовок (кратность 48)
+***CRITICAL***23.02.2010 21:30:58	Отсутствует корневой элемент.
+***Exception Level: 1
+***ExceptionType: XmlException
+***HelpLine: 
+***Message: Отсутствует корневой элемент.
+***Source: System.Xml
+***StackTrace:    в System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   в System.Xml.XmlTextReaderImpl.ThrowWithoutLineInfo(String res)
+   в System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   в System.Xml.XmlTextReaderImpl.Read()
+   в System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   в System.Xml.XPath.XPathDocument..ctor(XmlReader reader, XmlSpace space)
+   в System.Xml.Xsl.Runtime.XmlQueryContext.ConstructDocument(Object dataSource, String uriRelative, Uri uriResolved)
+   в System.Xml.Xsl.Runtime.XmlQueryContext..ctor(XmlQueryRuntime runtime, Object defaultDataSource, XmlResolver dataSources, XsltArgumentList argList, WhitespaceRuleLookup wsRules)
+   в System.Xml.Xsl.Runtime.XmlQueryRuntime..ctor(XmlQueryStaticData data, Object defaultDataSource, XmlResolver dataSources, XsltArgumentList argList, XmlSequenceWriter seqWrt)
+   в System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlSequenceWriter results)
+   в System.Xml.Xsl.XmlILCommand.Execute(Object defaultDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter writer, Boolean closeWriter)
+   в System.Xml.Xsl.XmlILCommand.Execute(XmlReader contextDocument, XmlResolver dataSources, XsltArgumentList argumentList, XmlWriter results)
+   в System.Xml.Xsl.XslCompiledTransform.Transform(String inputUri, XsltArgumentList arguments, XmlWriter results)
+   в Askme.Common.ConvertXML(String xmlFile, String xsltFile) в D:\datadi\programming\src\Askme\Common.cs:строка 125
+   в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 198
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 132
+***TargetSite: Void Throw(System.Exception)
+***Data: System.Collections.ListDictionaryInternal
+23.02.2010 21:30:58	Завершение выполения запроса к базе
+23.02.2010 21:30:58	Возникла ошибка при обработке запроса
+23.02.2010 21:30:58	**********При формировании отчета возникли ошибки*******************
+ 
+23.02.2010 21:31:12	****************Формирование нового отчета**************************
+23.02.2010 21:31:13	Начало формирования кода SQL-запроса
+23.02.2010 21:31:13	Завершение формирования кода SQL-запроса
+23.02.2010 21:31:16	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('24-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+23.02.2010 21:31:21	Начало выполения запроса к базе
+23.02.2010 21:31:23	---------Начало проверки данных на количество получасовок (кратность 48)
+***CRITICAL***23.02.2010 21:31:44	Файл 'D:\datadi\programming\src\Askme\exe\resultFile\80020_7706284124_20100124_1100_PRUSSES1.xml' не найден.
+***Exception Level: 1
+***ExceptionType: FileNotFoundException
+***HelpLine: 
+***Message: Файл 'D:\datadi\programming\src\Askme\exe\resultFile\80020_7706284124_20100124_1100_PRUSSES1.xml' не найден.
+***Source: mscorlib
+***StackTrace:    в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   в System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   в System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   в System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   в System.Xml.Xsl.XslCompiledTransform.CreateReader(String inputUri)
+   в System.Xml.Xsl.XslCompiledTransform.Transform(String inputUri, XsltArgumentList arguments, XmlWriter results)
+   в Askme.Common.ConvertXML(String xmlFile, String xsltFile) в D:\datadi\programming\src\Askme\Common.cs:строка 125
+   в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 198
+   в Askme.Asker.ExecSQL(String sqlQuery, Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 132
+***TargetSite: Void WinIOError(Int32, System.String)
+***Data: System.Collections.ListDictionaryInternal
+23.02.2010 21:31:45	Завершение выполения запроса к базе
+23.02.2010 21:31:54	Возникла ошибка при обработке запроса
+23.02.2010 21:31:54	**********При формировании отчета возникли ошибки*******************
+ 
+23.02.2010 21:32:28	****************Формирование нового отчета**************************
+23.02.2010 21:32:30	Начало формирования кода SQL-запроса
+23.02.2010 21:32:30	Завершение формирования кода SQL-запроса
+23.02.2010 21:32:32	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('24-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+23.02.2010 21:32:35	Начало выполения запроса к базе
+23.02.2010 21:33:26	---------Начало проверки данных на количество получасовок (кратность 48)
+23.02.2010 21:35:00	Приложение запущено
+23.02.2010 21:35:11	Приложение запущено
+ 
+23.02.2010 21:35:14	****************Формирование нового отчета**************************
+23.02.2010 21:35:14	Начало формирования кода SQL-запроса
+23.02.2010 21:35:14	Завершение формирования кода SQL-запроса
+23.02.2010 21:35:14	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('24-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+23.02.2010 21:35:14	Начало выполения запроса к базе
+23.02.2010 21:35:17	Завершение выполения запроса к базе
+23.02.2010 21:35:17	Начало преобразования полученных данных в итоговый xml
+23.02.2010 21:35:41	---------Начало проверки данных на количество получасовок (кратность 48)
+***CRITICAL***23.02.2010 21:36:00	Количество получасовок не кратно 48
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок не кратно 48
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 200
+   в Askme.Asker.PrepareXML(Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 175
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+23.02.2010 21:36:00	Завершение преобразования полученных данных в итоговый xml
+23.02.2010 21:36:00	Возникла ошибка при конвертации данных в XML
+23.02.2010 21:36:00	**********При формировании отчета возникли ошибки*******************
+23.02.2010 21:39:46	Приложение запущено
+23.02.2010 21:40:13	Приложение запущено
+ 
+23.02.2010 21:40:16	****************Формирование нового отчета**************************
+23.02.2010 21:40:16	Начало формирования кода SQL-запроса
+23.02.2010 21:40:16	Завершение формирования кода SQL-запроса
+23.02.2010 21:40:16	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('24-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+23.02.2010 21:40:16	Начало выполения запроса к базе
+23.02.2010 21:40:18	Завершение выполения запроса к базе
+23.02.2010 21:40:18	Начало преобразования полученных данных в итоговый xml
+23.02.2010 21:40:42	---------Начало проверки данных на количество получасовок (кратность 48)
+***CRITICAL***23.02.2010 21:40:50	Количество получасовок не кратно 48
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок не кратно 48
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 201
+   в Askme.Asker.PrepareXML(Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 175
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+23.02.2010 21:40:50	Завершение преобразования полученных данных в итоговый xml
+23.02.2010 21:40:50	Возникла ошибка при конвертации данных в XML
+23.02.2010 21:40:50	**********При формировании отчета возникли ошибки*******************
+ 
+23.02.2010 21:41:19	****************Формирование нового отчета**************************
+23.02.2010 21:41:19	Начало формирования кода SQL-запроса
+23.02.2010 21:41:19	Завершение формирования кода SQL-запроса
+23.02.2010 21:41:19	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('24-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+23.02.2010 21:41:19	Начало выполения запроса к базе
+23.02.2010 21:41:22	Завершение выполения запроса к базе
+23.02.2010 21:41:22	Начало преобразования полученных данных в итоговый xml
+23.02.2010 21:41:46	---------Начало проверки данных на количество получасовок (кратность 48)
+23.02.2010 21:41:55	Приложение запущено
+ 
+23.02.2010 21:42:06	****************Формирование нового отчета**************************
+23.02.2010 21:42:06	Начало формирования кода SQL-запроса
+23.02.2010 21:42:06	Завершение формирования кода SQL-запроса
+23.02.2010 21:42:06	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('24-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+23.02.2010 21:42:06	Начало выполения запроса к базе
+23.02.2010 21:42:09	Завершение выполения запроса к базе
+23.02.2010 21:42:09	Начало преобразования полученных данных в итоговый xml
+23.02.2010 21:42:33	---------Начало проверки данных на количество получасовок (кратность 48)
+23.02.2010 21:42:39	System.Xml.XmlDocument
+***CRITICAL***23.02.2010 21:42:40	Количество получасовок не кратно 48
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок не кратно 48
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 202
+   в Askme.Asker.PrepareXML(Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 175
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+23.02.2010 21:42:40	Завершение преобразования полученных данных в итоговый xml
+23.02.2010 21:42:40	Возникла ошибка при конвертации данных в XML
+23.02.2010 21:42:40	**********При формировании отчета возникли ошибки*******************
+23.02.2010 21:44:12	Приложение запущено
+ 
+23.02.2010 21:44:15	****************Формирование нового отчета**************************
+23.02.2010 21:44:15	Начало формирования кода SQL-запроса
+23.02.2010 21:44:15	Завершение формирования кода SQL-запроса
+23.02.2010 21:44:15	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('24-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+23.02.2010 21:44:15	Начало выполения запроса к базе
+23.02.2010 21:44:18	Завершение выполения запроса к базе
+23.02.2010 21:44:18	Начало преобразования полученных данных в итоговый xml
+23.02.2010 21:44:42	---------Начало проверки данных на количество получасовок (кратность 48)
+23.02.2010 23:32:31	Приложение запущено
+ 
+23.02.2010 23:33:25	****************Формирование нового отчета**************************
+23.02.2010 23:33:25	Начало формирования кода SQL-запроса
+23.02.2010 23:33:26	Завершение формирования кода SQL-запроса
+23.02.2010 23:33:26	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('23-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+23.02.2010 23:33:26	Начало выполения запроса к базе
+23.02.2010 23:33:26	Завершение выполения запроса к базе
+23.02.2010 23:33:26	Начало преобразования полученных данных в итоговый xml
+23.02.2010 23:33:26	---------Начало проверки данных на количество получасовок (кратность 48)
+23.02.2010 23:33:26	---------Окончание проверки данных на количество получасовок (кратность 48)
+23.02.2010 23:33:26	Завершение преобразования полученных данных в итоговый xml
+23.02.2010 23:33:26	Начало отправки сообщения на e-mail
+23.02.2010 23:33:28	Е-mail успешно отправлен
+23.02.2010 23:33:28	Завершение отправки сообщения на e-mail
+23.02.2010 23:33:28	****************Отчет успешно сформирован***************************
+ 
+23.02.2010 23:33:45	****************Формирование нового отчета**************************
+23.02.2010 23:33:45	Начало формирования кода SQL-запроса
+23.02.2010 23:33:45	Завершение формирования кода SQL-запроса
+23.02.2010 23:33:45	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('23-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+23.02.2010 23:33:45	Начало выполения запроса к базе
+23.02.2010 23:33:45	Завершение выполения запроса к базе
+23.02.2010 23:33:45	Начало преобразования полученных данных в итоговый xml
+23.02.2010 23:33:45	---------Начало проверки данных на количество получасовок (кратность 48)
+23.02.2010 23:33:45	---------Окончание проверки данных на количество получасовок (кратность 48)
+23.02.2010 23:33:45	Завершение преобразования полученных данных в итоговый xml
+23.02.2010 23:33:45	Начало отправки сообщения на e-mail
+23.02.2010 23:33:46	Е-mail успешно отправлен
+23.02.2010 23:33:46	Завершение отправки сообщения на e-mail
+23.02.2010 23:33:46	****************Отчет успешно сформирован***************************
+ 
+23.02.2010 23:34:27	****************Формирование нового отчета**************************
+23.02.2010 23:34:27	Начало формирования кода SQL-запроса
+23.02.2010 23:34:27	Завершение формирования кода SQL-запроса
+23.02.2010 23:34:27	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('23-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+23.02.2010 23:34:27	Начало выполения запроса к базе
+23.02.2010 23:34:27	Завершение выполения запроса к базе
+23.02.2010 23:34:27	Начало преобразования полученных данных в итоговый xml
+***CRITICAL***23.02.2010 23:34:27	Процесс не может получить доступ к файлу "D:\datadi\programming\src\Askme\exe\resultFile\80020_7706284124_20100123_1100_PRUSSES1.xml", так как этот файл используется другим процессом.
+***Exception Level: 1
+***ExceptionType: IOException
+***HelpLine: 
+***Message: Процесс не может получить доступ к файлу "D:\datadi\programming\src\Askme\exe\resultFile\80020_7706284124_20100123_1100_PRUSSES1.xml", так как этот файл используется другим процессом.
+***Source: mscorlib
+***StackTrace:    в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Askme.Asker.PrepareXML(Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 168
+***TargetSite: Void WinIOError(Int32, System.String)
+***Data: System.Collections.ListDictionaryInternal
+23.02.2010 23:34:27	Завершение преобразования полученных данных в итоговый xml
+23.02.2010 23:34:27	Возникла ошибка при конвертации данных в XML
+23.02.2010 23:34:27	**********При формировании отчета возникли ошибки*******************
+ 
+23.02.2010 23:35:04	****************Формирование нового отчета**************************
+23.02.2010 23:35:04	Начало формирования кода SQL-запроса
+23.02.2010 23:35:04	Завершение формирования кода SQL-запроса
+23.02.2010 23:35:04	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('23-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+23.02.2010 23:35:04	Начало выполения запроса к базе
+23.02.2010 23:35:04	Завершение выполения запроса к базе
+23.02.2010 23:35:04	Начало преобразования полученных данных в итоговый xml
+23.02.2010 23:35:04	---------Начало проверки данных на количество получасовок (кратность 48)
+23.02.2010 23:35:04	---------Окончание проверки данных на количество получасовок (кратность 48)
+23.02.2010 23:35:04	Завершение преобразования полученных данных в итоговый xml
+23.02.2010 23:35:04	Начало отправки сообщения на e-mail
+23.02.2010 23:35:05	Е-mail успешно отправлен
+23.02.2010 23:35:05	Завершение отправки сообщения на e-mail
+23.02.2010 23:35:05	****************Отчет успешно сформирован***************************
+ 
+23.02.2010 23:35:23	****************Формирование нового отчета**************************
+23.02.2010 23:35:23	Начало формирования кода SQL-запроса
+23.02.2010 23:35:23	Завершение формирования кода SQL-запроса
+23.02.2010 23:35:23	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('23-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+23.02.2010 23:35:23	Начало выполения запроса к базе
+23.02.2010 23:35:23	Завершение выполения запроса к базе
+23.02.2010 23:35:23	Начало преобразования полученных данных в итоговый xml
+23.02.2010 23:35:23	---------Начало проверки данных на количество получасовок (кратность 48)
+23.02.2010 23:35:23	---------Окончание проверки данных на количество получасовок (кратность 48)
+23.02.2010 23:35:23	Завершение преобразования полученных данных в итоговый xml
+23.02.2010 23:35:23	Начало отправки сообщения на e-mail
+23.02.2010 23:35:24	Е-mail успешно отправлен
+23.02.2010 23:35:24	Завершение отправки сообщения на e-mail
+23.02.2010 23:35:24	****************Отчет успешно сформирован***************************
+ 
+23.02.2010 23:35:34	****************Формирование нового отчета**************************
+23.02.2010 23:35:34	Начало формирования кода SQL-запроса
+23.02.2010 23:35:34	Завершение формирования кода SQL-запроса
+23.02.2010 23:35:34	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('23-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+23.02.2010 23:35:34	Начало выполения запроса к базе
+23.02.2010 23:35:34	Завершение выполения запроса к базе
+23.02.2010 23:35:34	Начало преобразования полученных данных в итоговый xml
+***CRITICAL***23.02.2010 23:35:34	Процесс не может получить доступ к файлу "D:\datadi\programming\src\Askme\exe\resultFile\80020_7706284124_20100123_1100_PRUSSES1.xml", так как этот файл используется другим процессом.
+***Exception Level: 1
+***ExceptionType: IOException
+***HelpLine: 
+***Message: Процесс не может получить доступ к файлу "D:\datadi\programming\src\Askme\exe\resultFile\80020_7706284124_20100123_1100_PRUSSES1.xml", так как этот файл используется другим процессом.
+***Source: mscorlib
+***StackTrace:    в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode)
+   в Askme.Asker.PrepareXML(Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 168
+***TargetSite: Void WinIOError(Int32, System.String)
+***Data: System.Collections.ListDictionaryInternal
+23.02.2010 23:35:34	Завершение преобразования полученных данных в итоговый xml
+23.02.2010 23:35:34	Возникла ошибка при конвертации данных в XML
+23.02.2010 23:35:34	**********При формировании отчета возникли ошибки*******************
+25.02.2010 10:50:22	Приложение запущено
+ 
+25.02.2010 11:00:47	****************Формирование нового отчета**************************
+25.02.2010 11:00:47	Начало формирования кода SQL-запроса
+25.02.2010 11:00:48	Завершение формирования кода SQL-запроса
+25.02.2010 11:00:48	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('23-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+25.02.2010 11:00:48	Начало выполения запроса к базе
+25.02.2010 11:00:50	Завершение выполения запроса к базе
+25.02.2010 11:00:50	Начало преобразования полученных данных в итоговый xml
+25.02.2010 11:00:50	---------Начало проверки данных на количество получасовок (кратность 48)
+25.02.2010 11:00:50	---------Окончание проверки данных на количество получасовок (кратность 48)
+25.02.2010 11:00:50	Завершение преобразования полученных данных в итоговый xml
+25.02.2010 11:00:50	Начало отправки сообщения на e-mail
+25.02.2010 11:00:52	Е-mail успешно отправлен
+25.02.2010 11:00:52	Завершение отправки сообщения на e-mail
+25.02.2010 11:00:52	****************Отчет успешно сформирован***************************
+ 
+25.02.2010 11:03:59	****************Формирование нового отчета**************************
+25.02.2010 11:03:59	Начало формирования кода SQL-запроса
+25.02.2010 11:04:00	Завершение формирования кода SQL-запроса
+25.02.2010 11:04:00	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('23-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+25.02.2010 11:04:00	Начало выполения запроса к базе
+25.02.2010 11:04:00	Завершение выполения запроса к базе
+25.02.2010 11:04:00	Начало преобразования полученных данных в итоговый xml
+25.02.2010 11:04:00	---------Начало проверки данных на количество получасовок (кратность 48)
+25.02.2010 11:04:00	---------Окончание проверки данных на количество получасовок (кратность 48)
+25.02.2010 11:04:00	Завершение преобразования полученных данных в итоговый xml
+25.02.2010 11:04:00	Начало отправки сообщения на e-mail
+25.02.2010 11:04:01	Е-mail успешно отправлен
+25.02.2010 11:04:01	Завершение отправки сообщения на e-mail
+25.02.2010 11:04:01	****************Отчет успешно сформирован***************************
+25.02.2010 11:06:23	Приложение запущено
+ 
+25.02.2010 11:06:32	****************Формирование нового отчета**************************
+25.02.2010 11:06:32	Начало формирования кода SQL-запроса
+25.02.2010 11:06:33	Завершение формирования кода SQL-запроса
+25.02.2010 11:06:33	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('24-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+25.02.2010 11:06:33	Начало выполения запроса к базе
+25.02.2010 11:06:36	Завершение выполения запроса к базе
+25.02.2010 11:06:36	Начало преобразования полученных данных в итоговый xml
+25.02.2010 11:06:51	---------Начало проверки данных на количество получасовок (кратность 48)
+25.02.2010 11:06:51	System.Xml.XmlDocument
+***CRITICAL***25.02.2010 11:06:52	Количество получасовок не кратно 48
+***Exception Level: 1
+***ExceptionType: Exception
+***HelpLine: 
+***Message: Количество получасовок не кратно 48
+***Source: Askme
+***StackTrace:    в Askme.Asker.CheckFiderCount() в D:\datadi\programming\src\Askme\Asker.cs:строка 202
+   в Askme.Asker.PrepareXML(Boolean& result) в D:\datadi\programming\src\Askme\Asker.cs:строка 175
+***TargetSite: Void CheckFiderCount()
+***Data: System.Collections.ListDictionaryInternal
+25.02.2010 11:06:52	Завершение преобразования полученных данных в итоговый xml
+25.02.2010 11:06:52	Возникла ошибка при конвертации данных в XML
+25.02.2010 11:06:52	**********При формировании отчета возникли ошибки*******************
+ 
+25.02.2010 11:11:31	****************Формирование нового отчета**************************
+25.02.2010 11:11:31	Начало формирования кода SQL-запроса
+25.02.2010 11:11:32	Завершение формирования кода SQL-запроса
+25.02.2010 11:11:32	SELECT
+   CNT.BUF_V_INT.N_OB,
+   CNT.BUF_V_INT.N_FID,
+   CNT.BUF_V_INT.N_GR_TY,
+   CNT.BUF_V_INT.DD_MM_YYYY,
+   CNT.BUF_V_INT.N_INTER_RAS,
+   CNT.BUF_V_INT.VAL,
+   CNT.BUF_V_INT.MIN_0,
+   CNT.BUF_V_INT.MIN_1
+ FROM
+  CNT.BUF_V_INT
+WHERE
+ CNT.BUF_V_INT.N_OB IN (980001, 980002, 980003, 980004, 980005, 980006, 980007, 980008, 981001, 981002, 981003, 981004, 981005, 981006, 981007, 981008, 981009, 981010, 981011, 981012, 983022, 983023, 983024, 983037, 984009, 984010, 984011, 984012, 984013) AND
+ TRUNC(CNT.BUF_V_INT.DD_MM_YYYY)=to_date('24-01-2010')
+ORDER BY N_OB, N_FID, N_GR_TY, N_INTER_RAS
+25.02.2010 11:11:32	Начало выполения запроса к базе
+25.02.2010 11:11:35	Завершение выполения запроса к базе
+25.02.2010 11:11:35	Начало преобразования полученных данных в итоговый xml
+25.02.2010 11:11:51	---------Начало проверки данных на количество получасовок (кратность 48)
+25.02.2010 11:13:13	---------Окончание проверки данных на количество получасовок (кратность 48)
+25.02.2010 11:13:13	Завершение преобразования полученных данных в итоговый xml
+25.02.2010 11:13:13	Начало отправки сообщения на e-mail
+25.02.2010 11:13:45	Е-mail успешно отправлен
+25.02.2010 11:13:45	Завершение отправки сообщения на e-mail
+25.02.2010 11:13:45	****************Отчет успешно сформирован***************************
+25.02.2010 20:14:50	Приложение запущено
+25.02.2010 20:16:26	Приложение запущено
+03.12.2010 0:49:53	Приложение запущено
+03.12.2010 0:51:38	Приложение остановлено

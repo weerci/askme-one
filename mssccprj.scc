@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[Askme.sln]
+SCC_Aux_Path = "C:\vss"
+SCC_Project_Name = "$/Askme/Askme", CAAAAAAA
+
+[Askme.csproj]
+SCC_Aux_Path = "C:\vss"
+SCC_Project_Name = "$/Askme/Askme", CAAAAAAA
