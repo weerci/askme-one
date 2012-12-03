@@ -205,4 +205,6 @@ namespace WFExceptions
         private ErrType _errType;
         private string _message;
     }
+
+
 }

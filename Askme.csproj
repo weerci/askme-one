@@ -18,12 +18,31 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
     <StartupObject>
     </StartupObject>
+    <PublishUrl>опубликовать\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,7 +57,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>exe\</OutputPath>
+    <OutputPath>..\..\exe\askme-one\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -46,12 +65,19 @@
     <DocumentationFile>
     </DocumentationFile>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Devart.Data, Version=5.0.21.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL" />
-    <Reference Include="Devart.Data.Oracle, Version=5.35.62.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL" />
+    <Reference Include="Devart.Data">
+      <HintPath>outher\Devart.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Devart.Data.Oracle">
+      <HintPath>outher\Devart.Data.Oracle.dll</HintPath>
+    </Reference>
     <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>outher\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -108,66 +134,26 @@
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="app.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
+    <None Include="app.manifest" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="!!!Readme.txt" />
+    <Folder Include="res\" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Go.ico" />
-    <Content Include="Help\Askme_Help.exe" />
-    <Content Include="Help\HTML\001.zoom85.png" />
-    <Content Include="Help\HTML\003.zoom85.png" />
-    <Content Include="Help\HTML\004.zoom85.png" />
-    <Content Include="Help\HTML\005.zoom85.png" />
-    <Content Include="Help\HTML\askme_content_dyn.html" />
-    <Content Include="Help\HTML\askme_content_static.html" />
-    <Content Include="Help\HTML\askme_ftsearch.html" />
-    <Content Include="Help\HTML\askme_kwindex_dyn.html" />
-    <Content Include="Help\HTML\askme_kwindex_static.html" />
-    <Content Include="Help\HTML\askme_navigation.js" />
-    <Content Include="Help\HTML\askme_popup_html.js" />
-    <Content Include="Help\HTML\cicon1.gif" />
-    <Content Include="Help\HTML\cicon2.gif" />
-    <Content Include="Help\HTML\cicon9.gif" />
-    <Content Include="Help\HTML\cicon_loadindex_ani.gif" />
-    <Content Include="Help\HTML\default.css" />
-    <Content Include="Help\HTML\helpman_topicinit.js" />
-    <Content Include="Help\HTML\highlight.js" />
-    <Content Include="Help\HTML\index.html" />
-    <Content Include="Help\HTML\introduction.htm" />
-    <Content Include="Help\HTML\settings.js" />
-    <Content Include="Help\HTML\zoom_index.js" />
-    <Content Include="Help\HTML\zoom_pageinfo.js" />
-    <Content Include="Help\HTML\zoom_search.js" />
-    <Content Include="Help\HTML\_________.htm" />
-    <Content Include="Help\HTML\_________2.htm" />
-    <Content Include="Help\HTML\______________.htm" />
-    <Content Include="Help\HTML\_________________.htm" />
-    <Content Include="Help\HTML\__________________.htm" />
-    <None Include="Resources\19298_40904469.gif" />
-    <None Include="Resources\Go.ico" />
-    <None Include="Help\Askme.chm" />
-    <None Include="Help\Askme.hmxz" />
-    <None Include="res\ran.gif" />
-    <None Include="Resources\Arraw.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Threading;
+using System.Diagnostics;
+using System.Linq;
+using WFExceptions;
 
 namespace Askme
 {
@@ -10,32 +13,47 @@ namespace Askme
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
             try
             {
                 // Можно запустить только один экзепляр приложения
-                bool onlyInstance;
-                Mutex mtx = new Mutex(true, "53d2c76a-d57f-4a0d-ad73-3c8e81d6a04e", out onlyInstance);
-                
-                if (onlyInstance)
+                int c = Process.GetProcesses().Where( n => n.ProcessName == Application.ProductName).ToArray().Count();
+                if (c == 0 || c == 1)
+                {
+                    Application.EnableVisualStyles();
+                    Application.SetCompatibleTextRenderingDefault(false);
+                    Application.ThreadException += new ThreadExceptionEventHandler(OnThreadException);
+                    AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(CurrentDomain_UnhandledException);
+
                     Application.Run(new FormMain());
-                Log.ToLog(CommonString.ApplicationStop);
+                    Log.ToLog(CommonString.ApplicationStop);
+                }
+                else
+                {
+                    Application.Exit();
+                }
+
             }
             catch (Exception err)
             {
-                switch (err.Message)
+                try
                 {
-                    case ErrorCode.NOT_INI_SYSPROP:
-                        MessageBox.Show(ErrorCode.NOT_INI_SYSPROP, Application.ProductName );
-                        break;
-                    default:
-                        MessageBox.Show(ErrorCode.UNKNOWN_ERROR, Application.ProductName );
-                        break;
+                    Log.ToLog(err.Message);
                 }
-                Log.ToLog(err.Message);
-                Application.Exit();
+                finally
+                {
+                    Application.Exit();
+                }
             }
         }
+
+        private static void OnThreadException(object sender, ThreadExceptionEventArgs t)
+        {
+            WFException.HandleError((Exception)t.Exception);
+        }
+        private static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
+        {
+            WFException.HandleError((Exception)e.ExceptionObject);
+        }
+
     }
 }
