@@ -13,9 +13,8 @@ namespace Askme
         public AboutBox()
         {
             InitializeComponent();
-            this.Text = String.Format("About {0}", AssemblyTitle);
-            this.labelProductName.Text = AssemblyProduct;
-            this.labelVersion.Text = String.Format("Version {0}", AssemblyVersion);
+            this.Text = String.Format("О программе {0}, v.{1}", Application.ProductName, AssemblyVersion);
+            tbDllList.Lines = AppDomain.CurrentDomain.GetAssemblies().Select(n => n.FullName).ToArray();
         }
 
         #region Assembly Attribute Accessors
@@ -96,6 +95,7 @@ namespace Askme
                 return ((AssemblyCompanyAttribute)attributes[0]).Company;
             }
         }
+       
         #endregion
     }
 }

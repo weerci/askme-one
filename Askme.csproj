@@ -130,6 +130,7 @@
     <EmbeddedResource Include="CommonString.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CommonString.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
@@ -137,11 +138,11 @@
     <None Include="app.config" />
     <None Include="app.manifest" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="res\" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="earth_arrow.ico" />
     <Content Include="Go.ico" />
+    <None Include="res\earth_arrow.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -165,7 +166,7 @@
   -->
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties Reset="1" AssemblyVersion="0" AssemblyFileVersion="0" StartDate="20100103" />
+      <UserProperties StartDate="20100103" AssemblyFileVersion="0" AssemblyVersion="0" Reset="1" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

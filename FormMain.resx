@@ -141,8 +141,8 @@ WHERE
   <data name="toolStripMenuItemProperties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOuQAA
-        DrkBuAYXvwAAAwxJREFUOE9tk21IU2EUx8+u1907NzemTssKCfsQ2ZslSUSFltWHSlgRRRoSUloIWUQQ
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOuAAA
+        DrgBakH1WwAAAwxJREFUOE9tk21IU2EUx8+u1907NzemTssKCfsQ2ZslSUSFltWHSlgRRRoSUloIWUQQ
         VFhCmJRkL6iFRa9qkFhYUq2tNEllKlqYUDnsBWVqTkudbZ7+9zb8Uhd+XHjOOf/z8jyH6D9f43nS4Vjj
         WBkd/6nIWNueZywtWGRahjNZOf9fjHpmX0vi+8PmvMEGrcuRbTrTczfkNTMxu4j7CqUhe46pomyjcSNc
         Q4Dwj9CTeWHGYbvkYQ+CboN68AmUgArgJ/bYgidrthsu6ImiICBOZ65Pioqr32DZ87NVHOdmOOeBYlAG
@@ -161,8 +161,8 @@ WHERE
   <data name="toolStripMenuItemClose.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOuQAA
-        DrkBuAYXvwAAAx1JREFUOE+Fk2lIVFEUx59OM76xGUdfo/Zq1EQdt9LUNMuasdKynMRSU9KykaYis2yz
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOuAAA
+        DrgBakH1WwAAAx1JREFUOE+Fk2lIVFEUx59OM76xGUdfo/Zq1EQdt9LUNMuasdKynMRSU9KykaYis2yz
         AlusqCjHstJBbKEvQaXQkEGLEEgo2reIMkLR9g3atEV59995k0b1pQs/7vLO/3Df+d/Dcf8ZtYLg1Z4Q
         eO+V2X+weZJwcYNGk0ISNeH+l7SO9wmwGwwT6VBBuI1+vGOOOoNdqcC6WLAVRrydbxiyi8KxaJ4PoBil
         K65hvMH8+EDxu37H+reO2HB7tkplpGOVMym6fNhRDNhzwDYlA9YooCAIz02+PyoF3WmKmcg59Pqwvlpb

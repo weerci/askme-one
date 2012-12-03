@@ -126,6 +126,23 @@ namespace Askme
             }
             return doc;
         }
+        /// <summary>
+        /// Вызов справки программы
+        /// </summary>
+        /// <param name="topic">Тема помощи</param>
+        /// <param name="helpNavigator">Значение в навигаторе</param>
+        public static void GetHelp(string topic, HelpNavigator helpNavigator)
+        {
+            try
+            {
+                Help.ShowHelp(null, Common.HELP_PATH, helpNavigator, topic + ".htm");
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message);
+            }
+        }
+
     }
     public static class Log
     {

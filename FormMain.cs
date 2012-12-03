@@ -279,7 +279,8 @@ namespace Askme
                         tabControlProperties.SelectedIndex = 3;
                         break;
                     case "tsmiExit":
-                        toolStripMenuItemClose_Click(null, null);
+                        this.Visible = false;
+                        this.ShowInTaskbar = false;
                         break;
                     default:
                         break;
@@ -392,12 +393,52 @@ namespace Askme
         {
             try
             {
-                System.Diagnostics.Process.Start(Common.HELP_PATH);
+                Common.GetHelp("ID_Introduction", HelpNavigator.Topic);
             }
             catch (Exception err)
             {
                 MessageBox.Show(err.Message);
             }
+        }
+        private void FormMain_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F1)
+            {
+                try
+                {
+                    switch (tabControlProperties.SelectedIndex)
+                    {
+                        case 0:
+                            Common.GetHelp("ID_Setting_const", HelpNavigator.Topic);
+                            break;
+                        case 1:
+                            Common.GetHelp("ID_Setting_SQL", HelpNavigator.Topic);
+                            break;
+                        case 2:
+                            Common.GetHelp("ID_Setting_Connection", HelpNavigator.Topic);
+                            break;
+                        case 3:
+                            Common.GetHelp("ID_Setting_config", HelpNavigator.Topic);
+                            break;
+                        default:
+                            Common.GetHelp("ID_Introduction", HelpNavigator.Topic);
+                            break;
+                    }
+
+                }
+                catch (Exception err)
+                {
+                    MessageBox.Show(err.Message);
+                }
+            }
+        }
+        private void FormMain_HelpButtonClicked(object sender, CancelEventArgs e)
+        {
+            FormMain_KeyDown(null, new KeyEventArgs(Keys.F1));
+        }
+        private void tsmiLogFile_Click(object sender, EventArgs e)
+        {
+            btnLogFile_Click(null, null);
         }
 
         // Private methods

@@ -131,6 +131,7 @@
             this.tsmiOpenHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.tsmiAbout = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiLogFile = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControlProperties.SuspendLayout();
             this.tabPageConstant.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -813,8 +814,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.cbImmediateStart);
             this.groupBox1.Controls.Add(this.mtbTo);
             this.groupBox1.Controls.Add(this.mtbFrom);
@@ -1037,8 +1038,8 @@
             // 
             this.bwSQL.WorkerReportsProgress = true;
             this.bwSQL.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bwSQL_DoWork);
-            this.bwSQL.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bwSQL_RunWorkerCompleted);
             this.bwSQL.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.bwSQL_ProgressChanged);
+            this.bwSQL.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bwSQL_RunWorkerCompleted);
             // 
             // menuStrip1
             // 
@@ -1068,40 +1069,40 @@
             // tsmiConst
             // 
             this.tsmiConst.Name = "tsmiConst";
-            this.tsmiConst.Size = new System.Drawing.Size(141, 22);
+            this.tsmiConst.Size = new System.Drawing.Size(152, 22);
             this.tsmiConst.Text = "Константы";
             this.tsmiConst.Click += new System.EventHandler(this.tsmiFile_Click);
             // 
             // tsmiQuery
             // 
             this.tsmiQuery.Name = "tsmiQuery";
-            this.tsmiQuery.Size = new System.Drawing.Size(141, 22);
+            this.tsmiQuery.Size = new System.Drawing.Size(152, 22);
             this.tsmiQuery.Text = "Запрос";
             this.tsmiQuery.Click += new System.EventHandler(this.tsmiFile_Click);
             // 
             // tsmiConnection
             // 
             this.tsmiConnection.Name = "tsmiConnection";
-            this.tsmiConnection.Size = new System.Drawing.Size(141, 22);
+            this.tsmiConnection.Size = new System.Drawing.Size(152, 22);
             this.tsmiConnection.Text = "Соединение";
             this.tsmiConnection.Click += new System.EventHandler(this.tsmiFile_Click);
             // 
             // tsmiProperty
             // 
             this.tsmiProperty.Name = "tsmiProperty";
-            this.tsmiProperty.Size = new System.Drawing.Size(141, 22);
+            this.tsmiProperty.Size = new System.Drawing.Size(152, 22);
             this.tsmiProperty.Text = "Настройки";
             this.tsmiProperty.Click += new System.EventHandler(this.tsmiFile_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(138, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(149, 6);
             // 
             // tsmiExit
             // 
             this.tsmiExit.Name = "tsmiExit";
-            this.tsmiExit.Size = new System.Drawing.Size(141, 22);
+            this.tsmiExit.Size = new System.Drawing.Size(152, 22);
             this.tsmiExit.Text = "Выход";
             this.tsmiExit.Click += new System.EventHandler(this.tsmiFile_Click);
             // 
@@ -1109,6 +1110,7 @@
             // 
             this.tsmiHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiOpenHelp,
+            this.tsmiLogFile,
             this.toolStripSeparator2,
             this.tsmiAbout});
             this.tsmiHelp.Name = "tsmiHelp";
@@ -1134,6 +1136,13 @@
             this.tsmiAbout.Text = "О программе...";
             this.tsmiAbout.Click += new System.EventHandler(this.tsmiAbout_Click);
             // 
+            // tsmiLogFile
+            // 
+            this.tsmiLogFile.Name = "tsmiLogFile";
+            this.tsmiLogFile.Size = new System.Drawing.Size(158, 22);
+            this.tsmiLogFile.Text = "Лог-файл";
+            this.tsmiLogFile.Click += new System.EventHandler(this.tsmiLogFile_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1143,15 +1152,19 @@
             this.Controls.Add(this.panelButton);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Настройки";
-            this.Load += new System.EventHandler(this.FormMain_Load);
+            this.HelpButtonClicked += new System.ComponentModel.CancelEventHandler(this.FormMain_HelpButtonClicked);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);
+            this.Load += new System.EventHandler(this.FormMain_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FormMain_KeyDown);
             this.tabControlProperties.ResumeLayout(false);
             this.tabPageConstant.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
@@ -1282,6 +1295,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripMenuItem tsmiExit;
         private System.Windows.Forms.CheckBox cbArchiveMail;
+        private System.Windows.Forms.ToolStripMenuItem tsmiLogFile;
     }
 }
 

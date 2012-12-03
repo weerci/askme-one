@@ -117,39 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="buttonStart" xml:space="preserve">
-    <value>Пуск</value>
+  <data name="ErrorOnMail" xml:space="preserve">
+    <value>Возникла ошибка при отправке сообщения</value>
   </data>
-  <data name="buttonStop" xml:space="preserve">
-    <value>Стоп</value>
+  <data name="ErrorOnRun" xml:space="preserve">
+    <value>Возникла ошибка при подготовке и отправке сообщения. Подробности в лог-файле</value>
   </data>
-  <data name="EmailSended" xml:space="preserve">
-    <value>Е-mail успешно отправлен</value>
-  </data>
-  <data name="labelStart" xml:space="preserve">
-    <value>Cервер запущен</value>
-  </data>
-  <data name="labelStop" xml:space="preserve">
-    <value>В настоящий момент сервер остановлен</value>
-  </data>
-  <data name="ConnectInTransaction" xml:space="preserve">
-    <value>Текущее соединение в активной тразакции, создание новой тразакции - невозможно.</value>
-  </data>
-  <data name="ConnectionIsNull" xml:space="preserve">
-    <value>Соединение с базой данных не инициализированно</value>
-  </data>
-  <data name="ParamIsNull" xml:space="preserve">
-    <value>Не инициализирован параметр.</value>
-  </data>
-  <data name="TransactionIsNull" xml:space="preserve">
-    <value>Транзакия не инициализированна.</value>
-  </data>
-  <data name="TestConnectionOk" xml:space="preserve">
-    <value>Соединение успешно установлено.</value>
-  </data>
-  <data name="TestConnectionFailed" xml:space="preserve">
-    <value>Соединение не установлено. 
-Код ошибки: "{0}"</value>
+  <data name="ErrorFiderCount" xml:space="preserve">
+    <value>Количество получасовок не кратно 48</value>
   </data>
   <data name="LogOpenFailed" xml:space="preserve">
     <value>Ошибка открытия лог-файла.
@@ -159,39 +134,28 @@
   <data name="openFilterExcel" xml:space="preserve">
     <value>Все файлы|*.*|Файлы Excel|*.xlsx</value>
   </data>
-  <data name="openFilterXSLT" xml:space="preserve">
-    <value>Все файлы|*.*|Файлы XSLT|*.xlt</value>
-  </data>
-  <data name="ErrorOnPrepareSQL" xml:space="preserve">
-    <value>Возникла ошибка при подготовке SQL-запроса. Подробности в лог-файле</value>
-  </data>
-  <data name="ErrorOnRun" xml:space="preserve">
-    <value>Возникла ошибка при подготовке и отправке сообщения. Подробности в лог-файле</value>
-  </data>
-  <data name="ErrorOnMail" xml:space="preserve">
-    <value>Возникла ошибка при отправке сообщения</value>
-  </data>
-  <data name="ResultOpenFailed" xml:space="preserve">
-    <value>Ошибка открытия итогового файла xml</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="earth_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>res\earth_arrow.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="XmlFileOpenFailed" xml:space="preserve">
     <value>Ошибка при открытии файла содержащего итоговый xml.
 Подробности в логе.</value>
   </data>
-  <data name="stateConvertXML" xml:space="preserve">
-    <value>Состояние: формирование XML</value>
+  <data name="labelStop" xml:space="preserve">
+    <value>В настоящий момент сервер остановлен</value>
   </data>
-  <data name="stateGetSQL" xml:space="preserve">
-    <value>Состояние: выполнение запроса SQL</value>
-  </data>
-  <data name="stateSendMail" xml:space="preserve">
-    <value>Состояние: отправка e-mail</value>
+  <data name="ConnectionIsNull" xml:space="preserve">
+    <value>Соединение с базой данных не инициализированно</value>
   </data>
   <data name="stateWait" xml:space="preserve">
     <value>Состояние: ожидание</value>
   </data>
-  <data name="statePrepareSQL" xml:space="preserve">
-    <value>Состояние: подготовка запроса</value>
+  <data name="ErrorOnPrepareSQL" xml:space="preserve">
+    <value>Возникла ошибка при подготовке SQL-запроса. Подробности в лог-файле</value>
+  </data>
+  <data name="ParamIsNull" xml:space="preserve">
+    <value>Не инициализирован параметр.</value>
   </data>
   <data name="ApplicationStart" xml:space="preserve">
     <value>Приложение запущено</value>
@@ -202,13 +166,53 @@
   <data name="ErrorOnConvertXML" xml:space="preserve">
     <value>Возникла ошибка при конвертации данных в XML</value>
   </data>
+  <data name="ConnectInTransaction" xml:space="preserve">
+    <value>Текущее соединение в активной тразакции, создание новой тразакции - невозможно.</value>
+  </data>
+  <data name="stateConvertXML" xml:space="preserve">
+    <value>Состояние: формирование XML</value>
+  </data>
+  <data name="labelStart" xml:space="preserve">
+    <value>Cервер запущен</value>
+  </data>
   <data name="ErrorOnExecSQL" xml:space="preserve">
     <value>Возникла ошибка при обработке запроса</value>
+  </data>
+  <data name="statePrepareSQL" xml:space="preserve">
+    <value>Состояние: подготовка запроса</value>
+  </data>
+  <data name="buttonStop" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="TransactionIsNull" xml:space="preserve">
+    <value>Транзакия не инициализированна.</value>
+  </data>
+  <data name="ResultOpenFailed" xml:space="preserve">
+    <value>Ошибка открытия итогового файла xml</value>
+  </data>
+  <data name="buttonStart" xml:space="preserve">
+    <value>Пуск</value>
+  </data>
+  <data name="EmailSended" xml:space="preserve">
+    <value>Е-mail успешно отправлен</value>
+  </data>
+  <data name="openFilterXSLT" xml:space="preserve">
+    <value>Все файлы|*.*|Файлы XSLT|*.xlt</value>
+  </data>
+  <data name="stateGetSQL" xml:space="preserve">
+    <value>Состояние: выполнение запроса SQL</value>
+  </data>
+  <data name="stateSendMail" xml:space="preserve">
+    <value>Состояние: отправка e-mail</value>
+  </data>
+  <data name="TestConnectionOk" xml:space="preserve">
+    <value>Соединение успешно установлено.</value>
   </data>
   <data name="ConfirmUnsafeRun" xml:space="preserve">
     <value>Не сохранены внесенные данные, сохранить и продолжить выполнение?</value>
   </data>
-  <data name="ErrorFiderCount" xml:space="preserve">
-    <value>Количество получасовок не кратно 48</value>
+  <data name="TestConnectionFailed" xml:space="preserve">
+    <value>Соединение не установлено. 
+Код ошибки: "{0}"</value>
   </data>
 </root>
