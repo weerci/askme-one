@@ -377,7 +377,7 @@ namespace Askme
             try
             {
                 this.Cursor = Cursors.WaitCursor;
-                System.Diagnostics.Process.Start("excel", String.Format("{0}", Common.EXCEL_CODE_BASE));
+                System.Diagnostics.Process.Start("excel", String.Format("\"{0}\"", Common.EXCEL_CODE_BASE));
             }
             catch (Exception err)
             {
